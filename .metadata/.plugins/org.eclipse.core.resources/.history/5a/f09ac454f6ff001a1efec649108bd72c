@@ -1,0 +1,5 @@
+package teste.entities;
+
+public class User {
+
+}
