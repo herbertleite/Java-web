@@ -14,6 +14,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -44,11 +45,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="sitesmavem"/>
 			<item value="com.educandoweb"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="sitesmavem"/>
 			<item value="aulajpamavem"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -69,6 +72,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\ws-sts\jsp-curso"/>
 			<item value="C:\ws-sts\springbootJdev3"/>
 			<item value="C:\ws-sts\springbootJdev2"/>
 			<item value="C:\ws-sts\springbootJdev1"/>
