@@ -1,0 +1,76 @@
+ body {
+    font-family: arial;
+}
+
+#conteudo {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #aaa;
+    font-size: 60px;
+    font-family: Georgia;
+    text-align: center;
+}
+
+table, tbody, thead {
+    width: 100%;
+    text-align: left;
+}
+
+td {
+    padding: 5px 0px;
+}
+
+input[type=search] {
+    font-family: arial;
+    font-size: 20px;
+    padding: 5px 10px;
+    width: 500px;
+}
+
+label {
+    display: inline-block;
+    padding-top: 5px; 
+    width: 100%;
+}
+input[type=text] {
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 3px 0px;
+    width: 100%;
+}
+
+.case-botoes {
+    text-align:right;
+}
+
+#case-produtos {
+    display: inline-block;
+}
+
+#case-produto {
+    margin: 0 auto;
+    text-align: center;
+}
+#case-produto table {
+    display: inline;
+}
+.produto {
+    width: 200px;
+}
+
+.icone-botao {
+    color: #aaa;
+}
+.preco {
+    color: #aaa;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+a, a:hover {
+    color: #aaa;
+    text-decoration: none;
+}

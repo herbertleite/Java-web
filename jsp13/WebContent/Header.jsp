@@ -109,15 +109,20 @@ body { margin:0; padding: 0;}
 	<div class="containerh">
 		<table>
 		
+		
+			
+			
 		<tr><td><span><img src="Imag/eu.jpg" style="width: 6vw; margin-left: 85px; width="30px"; height="90px"; " /></span></td>
 		<td><span style="font-size: 50px; padding-left: 2px;color:#FFE1FF; margin-left: 30px;">Herbert Leite</span></td>
 		<td><span>&nbsp;&nbsp;</span></td>
-		<td><span style="font-size: 50px;color: #FFE1FF;"> Soares</span> <br></td></tr>
-		<tr></tr>		
+		<td><span style="font-size: 50px;color: #FFE1FF;"> Soares</span> <br></td>
+		
+			
 		 </table>		
 	</div>
 	
   <div class="navbar">
+  
   <a href="index.jsp">INICIO</a>
   <div class="dropdown">
     <button class="dropbtn">SOBRE
@@ -128,6 +133,7 @@ body { margin:0; padding: 0;}
       <a href="Founder.jsp">Founder</a>
       <a href="Chairman.jsp">Chairman</a>
       <a href="Members.jsp">Members</a>
+      
     </div>
   </div>
 

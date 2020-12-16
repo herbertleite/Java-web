@@ -32,8 +32,13 @@
     <fullyQualifiedTypeName name="model.nomeTabela"/>
     <fullyQualifiedTypeName name="javax.servlet.jsp.tagext.SimpleTagSupport"/>
     <fullyQualifiedTypeName name="javax.servlet.jsp.JspWriter"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="connection.SingleConection"/>
     <fullyQualifiedTypeName name="br.com.projetojsp.connection.SingleConnection"/>
     <fullyQualifiedTypeName name="com.mysql.cj.util.LogUtils"/>
+    <fullyQualifiedTypeName name="br.com.projetojsp.dao.ProdutoDAO"/>
+    <fullyQualifiedTypeName name="br.com.projetojsp.bean.ProdutoBean"/>
+    <fullyQualifiedTypeName name="br.com.projetojsp.dao.DaoProduto"/>
+    <fullyQualifiedTypeName name="br.com.projetojsp.bean.Produto"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="beans.BeanCursoJsp"/>
 </qualifiedTypeNameHistroy>
