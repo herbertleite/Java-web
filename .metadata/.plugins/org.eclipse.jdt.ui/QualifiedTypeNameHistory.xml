@@ -9,7 +9,6 @@
     <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="dominio.department"/>
-    <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
     <fullyQualifiedTypeName name="teste.entities.User"/>
@@ -20,7 +19,6 @@
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="conexaojdbc.SingleConection"/>
     <fullyQualifiedTypeName name="org.postgresql.jdbc2.ArrayAssistantRegistry"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="javax.naming.spi.DirStateFactory.Result"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
@@ -41,4 +39,21 @@
     <fullyQualifiedTypeName name="br.com.projetojsp.bean.Produto"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="beans.BeanCursoJsp"/>
+    <fullyQualifiedTypeName name="javax.faces.bean.RequestScoped"/>
+    <fullyQualifiedTypeName name="javax.faces.event.NamedEvent"/>
+    <fullyQualifiedTypeName name="javax.inject.Named"/>
+    <fullyQualifiedTypeName name="javax.annotation.ManagedBean"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="javax.faces.view.ViewScoped"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+    <fullyQualifiedTypeName name="javax.faces.application.FacesMessage"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
+    <fullyQualifiedTypeName name="org.primefaces.PrimeFaces"/>
+    <fullyQualifiedTypeName name="org.primefaces.event.SelectEvent"/>
 </qualifiedTypeNameHistroy>

@@ -59,6 +59,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\ws-sts\jsf2"/>
 			<item value="C:\ws-sts\TibiaToolFX"/>
 			<item value="C:\ws-sts\LojaDeGamesPIII"/>
 			<item value="C:\ws-sts\carrinho-compras-jsf-hibernate-master"/>

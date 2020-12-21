@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\ws-sts\jsf2"/>
 			<item value="C:\ws-sts\lojadegamep3"/>
 			<item value="C:\ws-sts\exemplo-sessao\target\generated-sources\annotations"/>
 			<item value="C:\ws-sts\aula jpa\src\aplicacao\Programa.java"/>
@@ -47,11 +48,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="jsf3"/>
 			<item value="jsf1"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="jsf3"/>
 			<item value="jsf1"/>
 		</list>
 		<list key="projectNameTemplate">
