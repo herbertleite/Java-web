@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet"
+	href="/materialize/css/materialize.min.css" media="screen,projection" />
+<link type="text/css" rel="stylesheet"
+	href="/materialize/css/materialize.css" media="screen,projection" />
+	
+<style type="text/css">
+form input[type=submit]{
+color:white;
+}
+
+</style>
+
+</head>
+<body>
+	
+	<h3>Springbooot + thymeleaf + Material Design Lite</h3>
+	<h5>Cadastro de Pessoas</h5>
+	
+	<a href="/cadastropessoa">Cad. Pessoa</a>
+	
+	<div th:each="p: ${pessoaobj}">
+	<div class="row">
+	<p>ID: <span th:text=${p.id}></span></p>
+	<p>NOME: <span th:text=${p.nome}></span></p>
+	<p>SOBRENOME: <span th:text=${p.sobrenome}></span></p>
+	<p>IDADE: <span th:text=${p.idade}></span></p>
+	</div>
+	</div>
+	
+	
+ <div class="row">
+   <form th:action="@{/addfonePessoa/{pessoaid}(pessoaid=${pessoaobj.id})}"
+    method="post" class="col s12">
+    <div class="row">
+    	<div class="input-field col s6">
+    	  <label class="active" for="numero">Número:</label>
+    	  <input id="numero" name="numero" class="validate">
+    	</div>
+    	
+    	<div class="input-field col s6">
+    	  <label class="active" for="tipo">Tipo:</label>
+    	  <input id="tipo" name="tipo" class="validate">
+    	</div>
+    	
+    	<input type="submit" value="Adicionar"  class="waves-effect waves-light btn">
+    </div>
+   </form>
+ </div>
+ 
+ <table class="striped">
+   <tr th:each="fone : ${telefones}">
+     <td th:text="${fone.numero}"/>
+     <td th:text="${fone.tipo}"/>
+   </tr>
+ </table>
+
+	<script type="text/javascript" src="/materialize/js/materialize.js"></script>
+	<script type="text/javascript" src="/materialize/js/materialize.min.js"></script>
+	 <script type="text/javascript">
+ 
+ </script>
+</body>
+</html>
